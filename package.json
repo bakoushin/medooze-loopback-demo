@@ -1,0 +1,27 @@
+{
+  "name": "medooze-loopback-demo",
+  "version": "1.0.0",
+  "description": "Medooze Media Server Loopback Demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "medooze",
+    "node",
+    "webrtc",
+    "sfu"
+  ],
+  "author": "Alex Bakoushin <alex@bakoush.in>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "2.0.14"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "internal-ip": "6.2.0",
+    "medooze-media-server": "0.112.5",
+    "semantic-sdp": "3.22.0"
+  }
+}
